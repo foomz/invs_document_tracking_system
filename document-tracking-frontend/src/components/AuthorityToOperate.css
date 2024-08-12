@@ -1,0 +1,51 @@
+/* AuthorityToOperate.css */
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.authority-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.table-header, .table-row {
+  display: flex;
+}
+
+.header-item, .row-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  flex: 1;
+}
+
+.header-item {
+  background-color: #333;
+  color: white;
+  font-weight: bold;
+}
+
+.row-item input {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  text-align: center;
+}
+
+.row-item:last-child {
+  font-weight: bold;
+  background-color: #f9f9f9;
+}

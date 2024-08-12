@@ -1,0 +1,68 @@
+.container {
+  width: 1200px; /* Set a fixed width */
+  max-width: 100%; /* Set a maximum width as a percentage of the parent element */
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.button {
+  margin-right: 10px;
+}
+
+.document-table {
+  width: 1200px; /* Set a fixed width */
+  max-width: 100%; /* Set a maximum width as a percentage of the parent element */
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  table-layout: auto;
+}
+
+.document-table th, .document-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+.document-table th {
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+.document-table td {
+  vertical-align: top;
+}
+
+.document-item {
+  vertical-align: top;
+}
+
+.document-item .button {
+  margin-right: 5px;
+}
+
+.delete-button {
+  background-color: red;
+  color: white;
+}
+
+/* Add specific width for the Subjects column */
+.document-table th:nth-child(5), 
+.document-table td:nth-child(5) {
+  width: -webkit-fill-available; /* Adjust this value as needed */
+  padding: 1px;
+}
+
+
+.actions-cell {
+  text-align: center;
+}
+
+.actions-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
