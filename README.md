@@ -44,3 +44,8 @@ To deploy and start using the OCR Document Tracking System, follow the installat
 ---
 
 This README provides an introduction to the system, its key features, and the benefits it offers, making it easier for users to understand and utilize the OCR Document Tracking System.
+
+
+
+#To remove existing data use python manage.py delete_documents
+#To Migrate your existing data, use django backend import by access http://127.0.0.1:8000/admin with user:admin and password:jrpogi404
